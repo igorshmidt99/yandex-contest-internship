@@ -20,7 +20,7 @@ public class Main {
         System.out.println(sol(a, b, c));
     }
 
-    static int sol(List<Integer> a, List<Integer> b, List<Integer> c) {
+    public static int sol(List<Integer> a, List<Integer> b, List<Integer> c) {
         Map<Integer, Object> excludedYears = new HashMap<>();
         for (int i = 0; i < a.size(); i++) {
             Integer aVal = a.get(i);

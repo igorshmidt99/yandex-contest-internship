@@ -17,7 +17,7 @@ public class Main {
         System.out.println(sol(p, b));
     }
 
-    static int sol(List<Integer> p, long b) {
+    public static int sol(List<Integer> p, long b) {
         Set<List<Integer>> enters = new HashSet<>();
         int sol = 0;
         for (int i = 0; i < p.size(); i++) {

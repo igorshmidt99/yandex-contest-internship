@@ -14,10 +14,10 @@ public class Main {
         for (int i = 0; i < r; i++) {
             hor.add(scanner.nextLine());
         }
-        sol(c, hor);
+        System.out.println(sol(c, hor));
     }
 
-    static void sol(int c, List<String> hor) {
+    public static String sol(int c, List<String> hor) {
         Map<Integer, String> vert = new HashMap<>();
         for (int i = 0; i < hor.size(); i++) {
             String horWord = hor.get(i);
@@ -33,7 +33,7 @@ public class Main {
         TreeSet<String> words = new TreeSet<>(String::compareTo);
         addWords(hor, words);
         addWords(vert.values(), words);
-        System.out.println(words.pollFirst());
+        return words.pollFirst();
     }
 
     private static void addWords(Collection<String> fromCross, TreeSet<String> words) {
