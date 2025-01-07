@@ -1,0 +1,25 @@
+3 3
+yan
+d#e
+##x
+
+out
+nex
+
+
+4 2
+c#
+on
+te
+st
+
+out
+cots
+
+
+2 5
+inter
+nship
+
+out
+ei
